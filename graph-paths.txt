@@ -1,0 +1,84 @@
+All nodes (comma separated): 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17
+start node: 1
+end nodes: 3,17
+
+Test Paths for nodes coverage with a test case for each path:
+path1: [1,2,4,5,7,9,10,11,12,15,11,14,17]
+testcase: (startNumber = 3, endNumber = 9)
+
+path2: [1,2,4,5,7,9,10,11,12,15,11,12,13,16,5,6,3]
+testcase: (startNumber = 9, endNumber = 9)
+
+path3: [1,2,4,5,7,8,5,6,3]
+testcase: (startNumber = 4, endNumber = 4)
+
+-----------------------------------------------------------------------------
+
+All Edges (comma separated):1 2, 1 3, 2 3, 2 4, 4 5, 5 6, 5 7, 6 3, 7 8, 7 9, 8 5, 9 10, 10 11, 11 12, 11 14, 12 13, 12 15, 13 16, 15 11, 14 17, 16 5
+Test Paths for edges coverage with a test case for each path:
+path1: [1,3]
+testcase: (startNumber = 2, endNumber = 1)
+
+path2: [1,2,3]
+testcase: (startNumber = 1, endNumber = 2)
+
+path3: [1,2,4,5,7,8,5,6,3]
+testcase: (startNumber = 4, endNumber = 4)
+
+path4: [1,2,4,5,7,9,10,11,12,15,11,14,17]
+testcase: (startNumber = 3, endNumber = 9)
+
+path5: [1,2,4,5,7,9,10,11,12,15,11,12,13,16,5,6,3]
+testcase: (startNumber = 9, endNumber = 9)
+
+-----------------------------------------------------------------------------
+
+Prime path coverage with a test case for each path:
+path1: [1,2,4,5,7,9,10,11,14,17]
+testcase: (startNumber = 2, endNumber = 4)
+
+path2: [1,2,4,5,7,9,10,11,12,13,16,5,7,9,10,11,14,17]
+testcase: no valid test cases
+
+path3: [1,2,4,5,7,8,5,7,9,10,11,12,13,16,5,6,3]
+testcase: no valid test cases
+
+path4: [1,2,4,5,7,9,10,11,12,13,16,5,7,8,5,6,3]
+testcase: no valid test cases
+
+path5: [1,2,4,5,7,9,10,11,12,13,16,5,7,9,10,11,12,13,16,5,6,3]
+testcase: no valid test cases
+
+path6: [1,2,4,5,7,9,10,11,12,15,11,12,13,16,5,7,9,10,11,14,17]
+testcase: no valid test cases
+
+path7: [1,2,4,5,7,8,5,7,9,10,11,12,15,11,14,17]
+testcase: (startNumber =2 , endNumber = 5)
+
+path8: [1,2,4,5,7,8,5,7,9,10,11,14,17]
+testcase: no valid test cases
+
+path9: [1,2,4,5,7,9,10,11,12,15,11,12,13,16,5,7,8,5,6,3]
+testcase: (startNumber = 9, endNumber =10 )
+
+path10: [1,2,4,5,7,9,10,11,12,15,11,12,13,16,5,6,3]
+testcase: (startNumber = 9, endNumber = 9)
+
+path11: [1,2,4,5,6,3]
+testcase: no valid test cases
+
+path12: [1,2,4,5,7,8,5,7,8,5,6,3]
+testcase: no valid test cases
+
+path13: [1,2,4,5,7,9,10,11,12,15,11,12,15,11,14,17]
+testcase: (startNumber =3 , endNumber = 5)
+
+path14: [1,2,4,5,7,9,10,11,12,13,16,5,7,9,10,11,12,15,11,14,17] 
+testcase: no valid test cases
+
+path15: [1,2,3]
+testcase: (startNumber = 1, endNumber =2 )
+
+path16: [1,3]
+testcase: (startNumber =2 , endNumber =1 )
+
